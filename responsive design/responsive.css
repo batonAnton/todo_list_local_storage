@@ -1,0 +1,36 @@
+@media screen and (min-width: 390px ) and (max-width:600px) {
+    form input, form button {
+        padding: 0.5rem;
+        padding-left: 1rem;
+        font-size: 0.8rem;
+        border: none;
+        background: white;
+        border-radius: 2rem;
+    }
+
+    header, form {
+        min-height: 10vh;
+    }
+    select {
+        color: rgb(255, 200, 0);
+        width: 5rem;
+        height: 30px;
+        cursor: pointer;
+        padding: 12px;
+    }
+
+    .select::after {
+        padding: 7px;
+  }
+
+  .add_btn {
+    width: 10px;
+  }
+  .todo{
+    font-size: 12px;
+  }
+
+  .trash-btn, .complete-btn {
+    padding: 12px;
+  }
+}
